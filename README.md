@@ -1,2 +1,6 @@
 # cpp
-Cpp testing
+
+Exercising with C++
+
+* [210218](210218) : free exercising
+* [lcode](lcode) : leetcode exercises

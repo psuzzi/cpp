@@ -1,7 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <string>
-#include <fstream>
+#include "../StandardHeaders.hpp"
 #include "Solution.cpp"
 
 using namespace std;

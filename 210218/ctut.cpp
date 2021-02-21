@@ -8,20 +8,26 @@ using namespace std;
 int main(int argc, char const *argv[])
 {
 
-    cout << "Hello World" << endl;
+    int a[5]; 
 
-    const double PI = 3.14159;
+    int b[5] = {2, 3,4, 5, 6};
 
-    char myGrade = 'A';
+    cout << " A 1" << a[0] << endl;
 
-    bool isH = true;
+    char name[2][6] = {{'p', 'a', 't', 'r', 'i', 'k'},
+                        { 's', 'u', 'z', 'z', 'i', '.'}};
 
-    int age = 42;
+    for( int i=0; i<sizeof(a); i++){
+        for( int j=0; j<sizeof(name[i]); j++){
+            cout << "" << a[i][j];
+        }
+        cout << endl;
+    }
 
-    float favNum = 3.14159;
 
 
-    cout << "Favorite num. " << favNum << endl;
+
+    cout << "4/5 " << (double)4/5 << endl;
 
 
     /* code */

@@ -5,3 +5,6 @@
 
     # run
     ./a.out
+
+
+    g++ -std=c++11 ctut.cpp && ./a.out

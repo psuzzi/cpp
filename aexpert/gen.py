@@ -17,7 +17,7 @@ if dlist:
     
     for n in dlist:
         num, name = n.split('-', 1)
-        url = urllib.quote( 'www.algoexpert.io/questions/{}/'.format(name) ) 
+        url = urllib.quote( 'www.algoexpert.io/questions/{}'.format(name) ) 
         f.write(' * [#{} : {}](<{}>) - ([algoexpert](http://{})) \n'.format(num, name, n, url))
 
     f.write("\n")
